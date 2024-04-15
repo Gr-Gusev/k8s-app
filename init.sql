@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `notes` (
+    `ID` int NOT NULL AUTO_INCREMENT,
+    `text` TEXT DEFAULT NULL,
+    PRIMARY KEY (ID)
+);
